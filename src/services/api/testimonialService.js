@@ -53,8 +53,11 @@ export const testimonialService = {
     return true;
   },
 
-  async getApproved() {
+async getApproved() {
     await delay(300);
     return testimonials.filter(t => t.approved).map(t => ({ ...t }));
   }
 };
+
+// Named export for component compatibility
+export const getTestimonials = () => testimonialService.getAll();
