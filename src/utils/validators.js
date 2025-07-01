@@ -44,10 +44,41 @@ const validators = {
     return null;
   },
 
-  positiveNumber: (value) => {
+positiveNumber: (value) => {
     const numValue = parseFloat(value);
     if (isNaN(numValue) || numValue <= 0) {
       return 'Please enter a positive number';
+    }
+    return null;
+  },
+  skillName: (value) => {
+    if (value && typeof value === 'string') {
+      const trimmed = value.trim();
+      if (trimmed.length < 2) {
+        return 'Skill must be at least 2 characters long';
+      }
+      if (trimmed.length > 50) {
+        return 'Skill must be no more than 50 characters long';
+      }
+      if (!/^[a-zA-Z0-9\s\-\+\.#]+$/.test(trimmed)) {
+        return 'Skill contains invalid characters';
+      }
+    }
+    return null;
+  },
+
+  skillsList: (value) => {
+    if (!Array.isArray(value)) {
+      return 'Skills must be provided as an array';
+    }
+    if (value.length > 20) {
+      return 'Maximum 20 skills allowed';
+    }
+    for (const skill of value) {
+      const error = validators.skillName(skill);
+      if (error) {
+        return `Invalid skill "${skill}": ${error}`;
+      }
     }
     return null;
   },

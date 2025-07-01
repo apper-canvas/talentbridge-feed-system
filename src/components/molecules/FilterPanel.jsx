@@ -1,19 +1,20 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Slider from 'rc-slider';
+import 'rc-slider/assets/index.css';
 import Input from '@/components/atoms/Input';
 import Button from '@/components/atoms/Button';
 import ApperIcon from '@/components/ApperIcon';
-
 const FilterPanel = ({ filters, onFilterChange, onClearFilters }) => {
   const jobTypes = ['Full-time', 'Part-time', 'Contract', 'Freelance', 'Internship'];
   const experienceLevels = ['Entry Level', 'Mid Level', 'Senior Level', 'Executive'];
-  const salaryRanges = [
-    { label: 'Under $50k', value: '0-50000' },
-    { label: '$50k - $75k', value: '50000-75000' },
-    { label: '$75k - $100k', value: '75000-100000' },
-    { label: '$100k - $150k', value: '100000-150000' },
-    { label: '$150k+', value: '150000+' },
-  ];
+const formatSalary = (value) => {
+    if (value >= 1000000) return `$${(value / 1000000).toFixed(1)}M`;
+    if (value >= 1000) return `$${(value / 1000).toFixed(0)}k`;
+    return `$${value.toLocaleString()}`;
+  };
+
+  const salaryRange = filters.salaryRange || [0, 200000];
   
   return (
     <motion.div 
@@ -96,23 +97,30 @@ const FilterPanel = ({ filters, onFilterChange, onClearFilters }) => {
         </div>
       </div>
       
-      {/* Salary Range Filter */}
+{/* Salary Range Filter */}
       <div>
-        <label className="block text-sm font-medium text-gray-700 mb-3">Salary Range</label>
-        <div className="space-y-2">
-          {salaryRanges.map((range) => (
-            <label key={range.value} className="flex items-center">
-              <input
-                type="radio"
-                name="salaryRange"
-                value={range.value}
-                checked={filters.salaryRange === range.value}
-                onChange={(e) => onFilterChange('salaryRange', e.target.value)}
-                className="w-4 h-4 text-primary-600 border-gray-300 focus:ring-primary-500"
-              />
-              <span className="ml-2 text-sm text-gray-700">{range.label}</span>
-            </label>
-          ))}
+        <label className="block text-sm font-medium text-gray-700 mb-3">
+          Salary Range: {formatSalary(salaryRange[0])} - {formatSalary(salaryRange[1])}
+        </label>
+        <div className="px-2 py-4">
+          <Slider
+            range
+            min={0}
+            max={200000}
+            step={5000}
+            value={salaryRange}
+            onChange={(value) => onFilterChange('salaryRange', value)}
+            trackStyle={[{ backgroundColor: '#3B82F6' }]}
+            handleStyle={[
+              { borderColor: '#3B82F6', backgroundColor: '#3B82F6' },
+              { borderColor: '#3B82F6', backgroundColor: '#3B82F6' }
+            ]}
+            railStyle={{ backgroundColor: '#E5E7EB' }}
+          />
+          <div className="flex justify-between text-xs text-gray-500 mt-2">
+            <span>$0</span>
+            <span>$200k+</span>
+          </div>
         </div>
       </div>
     </motion.div>

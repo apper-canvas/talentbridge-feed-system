@@ -11,7 +11,8 @@ const JobsPage = () => {
   const [filteredJobs, setFilteredJobs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const [searchTerm, setSearchTerm] = useState('');
+const [searchTerm, setSearchTerm] = useState('');
+  const [skillsFilter, setSkillsFilter] = useState([]);
   const [filters, setFilters] = useState({});
   const [savedJobs, setSavedJobs] = useState([]);
   
@@ -20,9 +21,9 @@ const JobsPage = () => {
     loadSavedJobs();
   }, []);
   
-  useEffect(() => {
+useEffect(() => {
     applyFilters();
-  }, [jobs, searchTerm, filters]);
+  }, [jobs, searchTerm, skillsFilter, filters]);
   
   const loadJobs = async () => {
     setLoading(true);
@@ -45,7 +46,7 @@ const JobsPage = () => {
   const applyFilters = () => {
     let filtered = [...jobs];
     
-    // Apply search term
+// Apply search term
     if (searchTerm) {
       const term = searchTerm.toLowerCase();
       filtered = filtered.filter(job =>
@@ -55,6 +56,22 @@ const JobsPage = () => {
         job.location.toLowerCase().includes(term) ||
         job.description?.toLowerCase().includes(term)
       );
+    }
+
+    // Apply skills filter
+    if (skillsFilter.length > 0) {
+      filtered = filtered.filter(job => {
+        const jobSkills = [
+          ...(job.skills || []),
+          ...job.requirements.map(req => req.toLowerCase()),
+          job.title.toLowerCase(),
+          job.description?.toLowerCase() || ''
+        ].join(' ').toLowerCase();
+        
+        return skillsFilter.some(skill => 
+          jobSkills.includes(skill.toLowerCase())
+        );
+      });
     }
     
     // Apply location filter
@@ -79,31 +96,35 @@ const JobsPage = () => {
       );
     }
     
-    // Apply salary range filter
-    if (filters.salaryRange) {
-      const [min, max] = filters.salaryRange.split('-').map(s => s === '+' ? Infinity : parseInt(s));
+// Apply salary range filter
+    if (filters.salaryRange && Array.isArray(filters.salaryRange)) {
+      const [minFilter, maxFilter] = filters.salaryRange;
       filtered = filtered.filter(job => {
         if (!job.salary) return false;
         const jobMin = job.salary.min || job.salary.amount || 0;
-        const jobMax = job.salary.max || job.salary.amount || Infinity;
-        return (jobMin >= min || jobMax >= min) && (max === Infinity || jobMin <= max);
+        const jobMax = job.salary.max || job.salary.amount || jobMin;
+        
+        // Job salary range overlaps with filter range
+        return jobMax >= minFilter && jobMin <= maxFilter;
       });
     }
     
     setFilteredJobs(filtered);
   };
   
-  const handleSearch = (term) => {
+const handleSearch = (term, skills = []) => {
     setSearchTerm(term);
+    setSkillsFilter(skills);
   };
   
   const handleFilterChange = (key, value) => {
     setFilters(prev => ({ ...prev, [key]: value }));
   };
   
-  const handleClearFilters = () => {
+const handleClearFilters = () => {
     setFilters({});
     setSearchTerm('');
+    setSkillsFilter([]);
   };
   
   const handleSaveJob = (jobId) => {

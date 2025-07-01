@@ -45,7 +45,29 @@ export const jobService = {
     if (index === -1) {
       throw new Error('Job not found');
     }
-    const deletedJob = mockJobs.splice(index, 1)[0];
+const deletedJob = mockJobs.splice(index, 1)[0];
     return { ...deletedJob };
+  },
+
+  async searchBySkills(skills) {
+    await delay(250);
+    if (!skills || skills.length === 0) {
+      return [...mockJobs];
+    }
+    
+    const normalizedSkills = skills.map(skill => skill.toLowerCase().trim());
+    
+    return mockJobs.filter(job => {
+      const jobContent = [
+        job.title,
+        job.description || '',
+        ...(job.requirements || []),
+        ...(job.skills || [])
+      ].join(' ').toLowerCase();
+      
+      return normalizedSkills.some(skill => 
+        jobContent.includes(skill)
+      );
+    }).map(job => ({ ...job }));
   }
 };
