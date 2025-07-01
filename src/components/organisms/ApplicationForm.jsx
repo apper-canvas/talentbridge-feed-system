@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { toast } from 'react-toastify';
-import Input from '@/components/atoms/Input';
-import Button from '@/components/atoms/Button';
-import ApperIcon from '@/components/ApperIcon';
-import { applicationService } from '@/services/api/applicationService';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { toast } from "react-toastify";
+import { validateForm } from "@/utils/validators";
+import ApperIcon from "@/components/ApperIcon";
+import Input from "@/components/atoms/Input";
+import Button from "@/components/atoms/Button";
+import { applicationService } from "@/services/api/applicationService";
 
 const ApplicationForm = ({ job, onSuccess, onCancel }) => {
   const [formData, setFormData] = useState({
@@ -22,7 +23,7 @@ const ApplicationForm = ({ job, onSuccess, onCancel }) => {
     }
   };
   
-  const validateForm = () => {
+const validateFormData = () => {
     const newErrors = {};
     
     if (!formData.resume.trim()) {
@@ -37,10 +38,10 @@ const ApplicationForm = ({ job, onSuccess, onCancel }) => {
     return Object.keys(newErrors).length === 0;
   };
   
-  const handleSubmit = async (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
     
-    if (!validateForm()) return;
+    if (!validateFormData()) return;
     
     setLoading(true);
     try {
@@ -144,7 +145,7 @@ const ApplicationForm = ({ job, onSuccess, onCancel }) => {
             icon="Send"
           >
             Submit Application
-          </Button>
+</Button>
         </div>
       </form>
     </motion.div>
