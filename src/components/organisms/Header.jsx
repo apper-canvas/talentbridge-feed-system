@@ -9,11 +9,16 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
   
-  const navItems = [
+const navItems = [
     { to: '/jobs', label: 'Jobs', icon: 'Briefcase' },
     { to: '/companies', label: 'Companies', icon: 'Building2' },
+    { to: '/testimonials', label: 'Testimonials', icon: 'MessageSquare' },
+    { to: '/partners', label: 'Partners', icon: 'Handshake' },
+    { to: '/upload-cv', label: 'Upload CV', icon: 'Upload' },
+    { to: '/mission-vision', label: 'Mission', icon: 'Target' },
+    { to: '/contact', label: 'Contact', icon: 'Mail' },
     { to: '/dashboard', label: 'Dashboard', icon: 'LayoutDashboard' },
-    { to: '/employers', label: 'For Employers', icon: 'Users' },
+    { to: '/employers', label: 'For Employers', icon: 'Users' }
   ];
   
   return (

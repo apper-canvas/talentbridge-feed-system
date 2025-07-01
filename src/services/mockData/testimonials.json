@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "name": "Sarah Johnson",
+    "position": "Software Engineer",
+    "company": "TechCorp Solutions",
+    "content": "TalentBridge completely transformed my job search experience. Within two weeks of uploading my resume, I had multiple interviews lined up. The platform's matching algorithm is incredibly accurate, and I found my dream job as a software engineer. The interface is intuitive and the support team is fantastic!",
+    "rating": 5,
+    "date": "2024-01-15T10:30:00Z",
+    "approved": true
+  },
+  {
+    "Id": 2,
+    "name": "Michael Chen",
+    "position": "Product Manager",
+    "company": "Innovation Labs",
+    "content": "As a hiring manager, TalentBridge has been a game-changer for our recruitment process. The quality of candidates we receive is exceptional, and the platform makes it easy to find exactly what we're looking for. We've successfully hired 5 team members through TalentBridge in the past 6 months.",
+    "rating": 5,
+    "date": "2024-01-20T14:45:00Z",
+    "approved": true
+  },
+  {
+    "Id": 3,
+    "name": "Emily Rodriguez",
+    "position": "UX Designer",
+    "company": "Creative Studios",
+    "content": "I was skeptical about online job platforms, but TalentBridge exceeded all my expectations. The personalized job recommendations were spot-on, and I appreciated the detailed company profiles. I landed my current role as a UX Designer, and couldn't be happier with the career growth opportunities.",
+    "rating": 5,
+    "date": "2024-02-05T09:15:00Z",
+    "approved": true
+  },
+  {
+    "Id": 4,
+    "name": "David Thompson",
+    "position": "Data Scientist",
+    "company": "Analytics Pro",
+    "content": "The machine learning recommendations on TalentBridge are impressive. It suggested roles I hadn't even considered, but they turned out to be perfect matches for my skills and interests. The application tracking feature helped me stay organized throughout my job search process.",
+    "rating": 4,
+    "date": "2024-02-12T16:20:00Z",
+    "approved": true
+  },
+  {
+    "Id": 5,
+    "name": "Lisa Wang",
+    "position": "Marketing Director",
+    "company": "Growth Partners",
+    "content": "TalentBridge's employer branding features helped us showcase our company culture effectively. We've seen a significant increase in qualified applicants since joining the platform. The analytics dashboard provides valuable insights into our recruitment metrics.",
+    "rating": 5,
+    "date": "2024-02-18T11:10:00Z",
+    "approved": true
+  },
+  {
+    "Id": 6,
+    "name": "James Wilson",
+    "position": "DevOps Engineer",
+    "company": "CloudTech Systems",
+    "content": "After being unemployed for 3 months, TalentBridge helped me find multiple opportunities within weeks. The platform's job alert system kept me updated on relevant positions, and the interview preparation resources were incredibly helpful. Now I'm working at an amazing company with great benefits!",
+    "rating": 5,
+    "date": "2024-02-25T13:30:00Z",
+    "approved": true
+  }
+]

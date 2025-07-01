@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "TechCorp Solutions",
+    "industry": "Technology",
+    "description": "Leading provider of enterprise software solutions with a focus on AI and machine learning technologies.",
+    "logo": "TC",
+    "website": "https://techcorp-solutions.com",
+    "employees": "5000",
+    "location": "San Francisco, CA",
+    "featured": true,
+    "createdAt": "2023-06-15T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Innovation Labs",
+    "industry": "Research & Development",
+    "description": "Cutting-edge R&D company specializing in breakthrough technologies and scientific innovation.",
+    "logo": "IL",
+    "website": "https://innovation-labs.com",
+    "employees": "1200",
+    "location": "Boston, MA",
+    "featured": true,
+    "createdAt": "2023-07-20T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Creative Studios",
+    "industry": "Design & Media",
+    "description": "Award-winning creative agency providing branding, digital design, and multimedia solutions.",
+    "logo": "CS",
+    "website": "https://creative-studios.com",
+    "employees": "800",
+    "location": "New York, NY",
+    "featured": true,
+    "createdAt": "2023-08-10T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Analytics Pro",
+    "industry": "Data Analytics",
+    "description": "Premier data analytics consultancy helping businesses make data-driven decisions.",
+    "logo": "AP",
+    "website": "https://analyticspro.com",
+    "employees": "600",
+    "location": "Seattle, WA",
+    "featured": false,
+    "createdAt": "2023-09-05T11:45:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Growth Partners",
+    "industry": "Marketing",
+    "description": "Full-service marketing agency specializing in growth strategies and digital marketing.",
+    "logo": "GP",
+    "website": "https://growth-partners.com",
+    "employees": "400",
+    "location": "Austin, TX",
+    "featured": false,
+    "createdAt": "2023-09-18T16:20:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "CloudTech Systems",
+    "industry": "Cloud Computing",
+    "description": "Cloud infrastructure and DevOps solutions provider for enterprise clients.",
+    "logo": "CT",
+    "website": "https://cloudtech-systems.com",
+    "employees": "2500",
+    "location": "Denver, CO",
+    "featured": false,
+    "createdAt": "2023-10-02T12:10:00Z"
+  },
+  {
+    "Id": 7,
+    "name": "FinanceFlow",
+    "industry": "Financial Technology",
+    "description": "Innovative fintech company revolutionizing digital payment and banking solutions.",
+    "logo": "FF",
+    "website": "https://financeflow.com",
+    "employees": "1800",
+    "location": "Miami, FL",
+    "featured": false,
+    "createdAt": "2023-10-15T08:30:00Z"
+  },
+  {
+    "Id": 8,
+    "name": "HealthTech Innovations",
+    "industry": "Healthcare Technology",
+    "description": "Healthcare technology company developing AI-powered diagnostic and treatment solutions.",
+    "logo": "HT",
+    "website": "https://healthtech-innovations.com",
+    "employees": "900",
+    "location": "Chicago, IL",
+    "featured": false,
+    "createdAt": "2023-11-01T15:45:00Z"
+  },
+  {
+    "Id": 9,
+    "name": "EcoSolutions Inc",
+    "industry": "Environmental Technology",
+    "description": "Sustainable technology company focused on renewable energy and environmental solutions.",
+    "logo": "ES",
+    "website": "https://ecosolutions.com",
+    "employees": "650",
+    "location": "Portland, OR",
+    "featured": false,
+    "createdAt": "2023-11-20T10:15:00Z"
+  },
+  {
+    "Id": 10,
+    "name": "EduTech Platform",
+    "industry": "Education Technology",
+    "description": "Online learning platform providing innovative educational solutions for students and professionals.",
+    "logo": "EP",
+    "website": "https://edutech-platform.com",
+    "employees": "750",
+    "location": "Los Angeles, CA",
+    "featured": false,
+    "createdAt": "2023-12-05T13:20:00Z"
+  }
+]
