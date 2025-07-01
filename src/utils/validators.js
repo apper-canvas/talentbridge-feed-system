@@ -51,7 +51,7 @@ positiveNumber: (value) => {
     }
     return null;
   },
-  skillName: (value) => {
+skillName: (value) => {
     if (value && typeof value === 'string') {
       const trimmed = value.trim();
       if (trimmed.length < 2) {
@@ -60,7 +60,7 @@ positiveNumber: (value) => {
       if (trimmed.length > 50) {
         return 'Skill must be no more than 50 characters long';
       }
-      if (!/^[a-zA-Z0-9\s\-\+\.#]+$/.test(trimmed)) {
+      if (!/^[a-zA-Z0-9\s\-+.#]+$/.test(trimmed)) {
         return 'Skill contains invalid characters';
       }
     }
