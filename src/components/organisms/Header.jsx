@@ -54,18 +54,8 @@ const navItems = [
             ))}
           </nav>
           
-          {/* Right side actions */}
+{/* Right side actions */}
           <div className="flex items-center space-x-4">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => navigate('/employers')}
-              className="hidden sm:flex"
-              icon="Plus"
-            >
-              Post Job
-            </Button>
-            
             {/* Mobile menu button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -104,21 +94,7 @@ const navItems = [
                   <ApperIcon name={item.icon} className="w-5 h-5" />
                   <span>{item.label}</span>
                 </NavLink>
-              ))}
-              <div className="pt-4 border-t border-gray-200">
-                <Button
-                  variant="primary"
-                  size="sm"
-                  onClick={() => {
-                    navigate('/employers');
-                    setIsMobileMenuOpen(false);
-                  }}
-                  className="w-full"
-                  icon="Plus"
-                >
-                  Post Job
-                </Button>
-              </div>
+))}
             </div>
           </motion.div>
         )}
