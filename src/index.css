@@ -62,12 +62,11 @@ input, textarea, select {
     @apply relative overflow-hidden bg-gray-200 rounded;
   }
   
-  .shimmer-loading::after {
+.shimmer-loading::after {
     @apply absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-40;
     content: '';
     animation: shimmer 2s linear infinite;
   }
-}
 
 /* Toast Customization */
 .Toastify__toast-container {
