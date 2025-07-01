@@ -1,0 +1,234 @@
+[
+  {
+    "Id": 1,
+    "title": "Senior Frontend Developer",
+    "companyName": "TechFlow Inc.",
+    "location": "San Francisco, CA",
+    "type": "Full-time",
+    "experience": "Senior Level",
+    "description": "We are seeking a highly skilled Senior Frontend Developer to join our dynamic team. You will be responsible for developing and maintaining user-facing web applications using modern JavaScript frameworks. The ideal candidate has extensive experience with React, TypeScript, and modern CSS frameworks.\n\nResponsibilities:\n• Lead frontend development projects from conception to deployment\n• Mentor junior developers and conduct code reviews\n• Collaborate with UX/UI designers to implement pixel-perfect designs\n• Optimize applications for maximum speed and scalability\n• Stay up-to-date with emerging technologies and industry trends",
+    "requirements": [
+      "5+ years of experience in frontend development",
+      "Expert knowledge of React, TypeScript, and modern JavaScript",
+      "Experience with state management libraries (Redux, Zustand)",
+      "Proficiency in CSS-in-JS solutions and responsive design",
+      "Strong understanding of web performance optimization",
+      "Experience with testing frameworks (Jest, Cypress)",
+      "Excellent communication and leadership skills"
+    ],
+    "salary": {
+      "min": 120000,
+      "max": 160000
+    },
+    "postedDate": "2024-01-15T10:00:00Z",
+    "applicationDeadline": "2024-02-15T23:59:59Z",
+    "remote": true,
+    "company": {
+      "Id": 1,
+      "name": "TechFlow Inc."
+    }
+  },
+  {
+    "Id": 2,
+    "title": "Product Manager",
+    "companyName": "InnovateLabs",
+    "location": "New York, NY",
+    "type": "Full-time",
+    "experience": "Mid Level",
+    "description": "Join our product team as a Product Manager and help shape the future of our innovative SaaS platform. You'll work closely with engineering, design, and business stakeholders to define product requirements and drive feature development.\n\nKey Responsibilities:\n• Define and prioritize product roadmap based on customer needs\n• Write detailed user stories and acceptance criteria\n• Conduct market research and competitive analysis\n• Collaborate with cross-functional teams to deliver features\n• Analyze product metrics and user feedback to inform decisions",
+    "requirements": [
+      "3+ years of product management experience",
+      "Experience with agile development methodologies",
+      "Strong analytical and problem-solving skills",
+      "Excellent written and verbal communication",
+      "Experience with product analytics tools",
+      "Technical background preferred but not required",
+      "Bachelor's degree in Business, Engineering, or related field"
+    ],
+    "salary": {
+      "min": 95000,
+      "max": 130000
+    },
+    "postedDate": "2024-01-14T14:30:00Z",
+    "applicationDeadline": "2024-02-14T23:59:59Z",
+    "remote": false,
+    "company": {
+      "Id": 2,
+      "name": "InnovateLabs"
+    }
+  },
+  {
+    "Id": 3,
+    "title": "UX/UI Designer",
+    "companyName": "DesignCorp",
+    "location": "Austin, TX",
+    "type": "Full-time",
+    "experience": "Mid Level",
+    "description": "We're looking for a creative UX/UI Designer to join our design team. You'll be responsible for creating intuitive and visually appealing user interfaces for our web and mobile applications.\n\nWhat you'll do:\n• Design user interfaces for web and mobile applications\n• Create wireframes, prototypes, and high-fidelity mockups\n• Conduct user research and usability testing\n• Collaborate with developers to ensure design implementation\n• Maintain and evolve our design system",
+    "requirements": [
+      "3+ years of UX/UI design experience",
+      "Proficiency in Figma, Sketch, or Adobe Creative Suite",
+      "Strong portfolio demonstrating design process",
+      "Understanding of user-centered design principles",
+      "Experience with prototyping and user testing",
+      "Knowledge of HTML/CSS is a plus",
+      "Strong attention to detail and visual aesthetics"
+    ],
+    "salary": {
+      "min": 80000,
+      "max": 110000
+    },
+    "postedDate": "2024-01-13T09:15:00Z",
+    "applicationDeadline": "2024-02-13T23:59:59Z",
+    "remote": true,
+    "company": {
+      "Id": 3,
+      "name": "DesignCorp"
+    }
+  },
+  {
+    "Id": 4,
+    "title": "Data Scientist",
+    "companyName": "DataDriven Solutions",
+    "location": "Seattle, WA",
+    "type": "Full-time",
+    "experience": "Senior Level",
+    "description": "Join our data science team to help drive business decisions through advanced analytics and machine learning. You'll work with large datasets to uncover insights and build predictive models.\n\nResponsibilities:\n• Develop and deploy machine learning models\n• Analyze complex datasets to identify trends and patterns\n• Create data visualizations and reports for stakeholders\n• Collaborate with engineering teams to productionize models\n• Stay current with latest data science techniques and tools",
+    "requirements": [
+      "PhD or Master's in Data Science, Statistics, or related field",
+      "5+ years of experience in data science or analytics",
+      "Proficiency in Python, R, and SQL",
+      "Experience with machine learning frameworks (scikit-learn, TensorFlow)",
+      "Strong statistical analysis and modeling skills",
+      "Experience with cloud platforms (AWS, GCP, Azure)",
+      "Excellent problem-solving and communication skills"
+    ],
+    "salary": {
+      "min": 140000,
+      "max": 180000
+    },
+    "postedDate": "2024-01-12T16:45:00Z",
+    "applicationDeadline": "2024-02-12T23:59:59Z",
+    "remote": true,
+    "company": {
+      "Id": 4,
+      "name": "DataDriven Solutions"
+    }
+  },
+  {
+    "Id": 5,
+    "title": "DevOps Engineer",
+    "companyName": "CloudFirst Technologies",
+    "location": "Denver, CO",
+    "type": "Full-time",
+    "experience": "Mid Level",
+    "description": "We're seeking a DevOps Engineer to help automate and streamline our deployment processes. You'll work with development teams to improve CI/CD pipelines and maintain our cloud infrastructure.\n\nKey Duties:\n• Design and maintain CI/CD pipelines\n• Manage cloud infrastructure using Infrastructure as Code\n• Monitor system performance and troubleshoot issues\n• Implement security best practices across environments\n• Automate repetitive tasks and processes",
+    "requirements": [
+      "3+ years of DevOps or systems administration experience",
+      "Experience with AWS, Azure, or Google Cloud Platform",
+      "Proficiency with containerization (Docker, Kubernetes)",
+      "Knowledge of Infrastructure as Code (Terraform, CloudFormation)",
+      "Experience with CI/CD tools (Jenkins, GitLab CI, GitHub Actions)",
+      "Strong scripting skills (Bash, Python, or similar)",
+      "Understanding of networking and security principles"
+    ],
+    "salary": {
+      "min": 100000,
+      "max": 135000
+    },
+    "postedDate": "2024-01-11T11:20:00Z",
+    "applicationDeadline": "2024-02-11T23:59:59Z",
+    "remote": true,
+    "company": {
+      "Id": 5,
+      "name": "CloudFirst Technologies"
+    }
+  },
+  {
+    "Id": 6,
+    "title": "Marketing Specialist",
+    "companyName": "GrowthHackers",
+    "location": "Los Angeles, CA",
+    "type": "Full-time",
+    "experience": "Entry Level",
+    "description": "Join our marketing team as a Marketing Specialist and help drive brand awareness and lead generation. This is a great opportunity for someone early in their marketing career to learn and grow.\n\nWhat you'll do:\n• Develop and execute digital marketing campaigns\n• Create content for social media and blog posts\n• Analyze marketing metrics and campaign performance\n• Support event planning and execution\n• Collaborate with sales team on lead nurturing",
+    "requirements": [
+      "Bachelor's degree in Marketing, Communications, or related field",
+      "1-2 years of marketing experience preferred",
+      "Knowledge of digital marketing channels and tools",
+      "Strong writing and communication skills",
+      "Experience with social media platforms",
+      "Analytical mindset with attention to detail",
+      "Eagerness to learn and adapt to new technologies"
+    ],
+    "salary": {
+      "min": 50000,
+      "max": 65000
+    },
+    "postedDate": "2024-01-10T08:30:00Z",
+    "applicationDeadline": "2024-02-10T23:59:59Z",
+    "remote": false,
+    "company": {
+      "Id": 6,
+      "name": "GrowthHackers"
+    }
+  },
+  {
+    "Id": 7,
+    "title": "Backend Developer",
+    "companyName": "ServerSide Solutions",
+    "location": "Chicago, IL",
+    "type": "Full-time",
+    "experience": "Mid Level",
+    "description": "We're looking for a Backend Developer to join our engineering team. You'll be responsible for building and maintaining our API services and database architecture.\n\nKey Responsibilities:\n• Design and develop RESTful APIs\n• Optimize database queries and performance\n• Implement security best practices\n• Write comprehensive tests for backend services\n• Collaborate with frontend developers on API integration",
+    "requirements": [
+      "3+ years of backend development experience",
+      "Proficiency in Node.js, Python, or Java",
+      "Experience with relational and NoSQL databases",
+      "Knowledge of API design and development",
+      "Understanding of software testing principles",
+      "Experience with version control (Git)",
+      "Strong problem-solving and debugging skills"
+    ],
+    "salary": {
+      "min": 90000,
+      "max": 120000
+    },
+    "postedDate": "2024-01-09T13:45:00Z",
+    "applicationDeadline": "2024-02-09T23:59:59Z",
+    "remote": true,
+    "company": {
+      "Id": 7,
+      "name": "ServerSide Solutions"
+    }
+  },
+  {
+    "Id": 8,
+    "title": "Customer Success Manager",
+    "companyName": "ClientFirst Corp",
+    "location": "Boston, MA",
+    "type": "Full-time",
+    "experience": "Mid Level",
+    "description": "Join our Customer Success team to help ensure our clients achieve their goals with our platform. You'll be the primary point of contact for key accounts and drive customer satisfaction.\n\nResponsibilities:\n• Manage relationships with key customer accounts\n• Conduct regular check-ins and business reviews\n• Identify opportunities for account expansion\n• Resolve customer issues and concerns\n• Collaborate with product team on feature requests",
+    "requirements": [
+      "2+ years of customer success or account management experience",
+      "Strong interpersonal and communication skills",
+      "Experience with CRM and customer success platforms",
+      "Ability to understand technical products",
+      "Problem-solving and conflict resolution skills",
+      "Bachelor's degree preferred",
+      "Experience in SaaS industry is a plus"
+    ],
+    "salary": {
+      "min": 70000,
+      "max": 95000
+    },
+    "postedDate": "2024-01-08T10:15:00Z",
+    "applicationDeadline": "2024-02-08T23:59:59Z",
+    "remote": false,
+    "company": {
+      "Id": 8,
+      "name": "ClientFirst Corp"
+    }
+  }
+]

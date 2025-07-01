@@ -1,0 +1,155 @@
+[
+  {
+    "Id": 1,
+    "name": "TechFlow Inc.",
+    "industry": "Technology",
+    "size": "51-200",
+    "description": "TechFlow is a leading technology company specializing in innovative software solutions for businesses. We focus on creating cutting-edge applications that help our clients streamline their operations and achieve their goals. Our team of talented developers, designers, and product managers work together to deliver exceptional results.",
+    "culture": "We believe in fostering a collaborative and inclusive environment where every team member can thrive. Our culture is built on innovation, continuous learning, and work-life balance. We encourage creativity, support professional development, and celebrate diversity.",
+    "benefits": [
+      "Comprehensive health insurance",
+      "401(k) with company matching",
+      "Flexible working hours",
+      "Remote work options",
+      "Professional development budget",
+      "Unlimited PTO",
+      "Free snacks and beverages",
+      "Team building activities"
+    ],
+    "openPositions": 8,
+    "verified": true
+  },
+  {
+    "Id": 2,
+    "name": "InnovateLabs",
+    "industry": "Software Development",
+    "size": "11-50",
+    "description": "InnovateLabs is a dynamic startup focused on developing next-generation SaaS solutions. We work with cutting-edge technologies to solve complex business problems and help companies scale efficiently. Our agile approach and customer-centric mindset drive everything we do.",
+    "culture": "As a startup, we move fast and embrace change. Our culture is entrepreneurial, with a strong emphasis on ownership, accountability, and results. We believe in empowering our team members to make decisions and take initiative.",
+    "benefits": [
+      "Equity participation",
+      "Health and dental insurance",
+      "Flexible schedule",
+      "Learning and development opportunities",
+      "Catered lunches",
+      "Modern office space",
+      "Company retreats"
+    ],
+    "openPositions": 5,
+    "verified": true
+  },
+  {
+    "Id": 3,
+    "name": "DesignCorp",
+    "industry": "Design & Creative",
+    "size": "201-500",
+    "description": "DesignCorp is a full-service design agency that helps brands create meaningful connections with their audiences. We specialize in digital design, user experience, and brand strategy. Our multidisciplinary team combines creativity with strategic thinking to deliver impactful solutions.",
+    "culture": "Creativity is at the heart of everything we do. We foster an environment where ideas can flourish and where every team member feels valued and inspired. We believe in collaboration, experimentation, and pushing creative boundaries.",
+    "benefits": [
+      "Creative freedom and autonomy",
+      "Professional design software licenses",
+      "Conference and workshop attendance",
+      "Flexible PTO policy",
+      "Health and wellness programs",
+      "Team creative projects",
+      "Modern design workspace"
+    ],
+    "openPositions": 12,
+    "verified": true
+  },
+  {
+    "Id": 4,
+    "name": "DataDriven Solutions",
+    "industry": "Data Analytics",
+    "size": "101-250",
+    "description": "DataDriven Solutions helps organizations make sense of their data through advanced analytics and machine learning. We provide consulting services and develop custom analytics platforms that enable data-driven decision making across various industries.",
+    "culture": "We're passionate about data and its potential to transform businesses. Our culture values analytical thinking, continuous learning, and scientific rigor. We encourage experimentation and support our team in staying at the forefront of data science.",
+    "benefits": [
+      "Competitive salary and bonuses",
+      "Comprehensive benefits package",
+      "Research and development time",
+      "Conference attendance support",
+      "Advanced computing resources",
+      "Collaborative workspace",
+      "Knowledge sharing sessions"
+    ],
+    "openPositions": 6,
+    "verified": true
+  },
+  {
+    "Id": 5,
+    "name": "CloudFirst Technologies",
+    "industry": "Cloud Computing",
+    "size": "51-200",
+    "description": "CloudFirst Technologies specializes in cloud infrastructure and DevOps solutions. We help companies migrate to the cloud, optimize their infrastructure, and implement robust CI/CD pipelines. Our expertise spans across major cloud platforms and modern DevOps practices.",
+    "culture": "Innovation and reliability are our core values. We believe in automation, best practices, and continuous improvement. Our team culture emphasizes collaboration, knowledge sharing, and staying current with the latest cloud technologies.",
+    "benefits": [
+      "Cloud certification support",
+      "Flexible remote work",
+      "Performance bonuses",
+      "Health and retirement benefits",
+      "Technical conference attendance",
+      "Home office stipend",
+      "Professional development funds"
+    ],
+    "openPositions": 4,
+    "verified": true
+  },
+  {
+    "Id": 6,
+    "name": "GrowthHackers",
+    "industry": "Digital Marketing",
+    "size": "26-50",
+    "description": "GrowthHackers is a performance marketing agency that helps startups and established companies achieve sustainable growth. We specialize in growth marketing, conversion optimization, and data-driven marketing strategies that deliver measurable results.",
+    "culture": "We're a results-driven team that thrives on creativity and experimentation. Our culture celebrates both successes and failures as learning opportunities. We believe in transparency, collaboration, and pushing the boundaries of traditional marketing.",
+    "benefits": [
+      "Performance-based bonuses",
+      "Marketing tool allowances",
+      "Flexible working arrangements",
+      "Health insurance",
+      "Professional development",
+      "Team outings and events",
+      "Creative workspace"
+    ],
+    "openPositions": 7,
+    "verified": false
+  },
+  {
+    "Id": 7,
+    "name": "ServerSide Solutions",
+    "industry": "Backend Development",
+    "size": "11-50",
+    "description": "ServerSide Solutions focuses on building robust, scalable backend systems for web and mobile applications. We work with companies of all sizes to architect and develop APIs, databases, and server infrastructure that can handle growth and complexity.",
+    "culture": "Technical excellence is our foundation. We value clean code, system design, and scalable architecture. Our culture promotes continuous learning, code reviews, and knowledge sharing among team members.",
+    "benefits": [
+      "Technical book allowance",
+      "Flexible hours",
+      "Remote work options",
+      "Health benefits",
+      "Equipment upgrade budget",
+      "Team learning sessions",
+      "Code review culture"
+    ],
+    "openPositions": 3,
+    "verified": true
+  },
+  {
+    "Id": 8,
+    "name": "ClientFirst Corp",
+    "industry": "Customer Success",
+    "size": "101-250",
+    "description": "ClientFirst Corp provides customer success solutions for SaaS companies. We help businesses build strong relationships with their customers, reduce churn, and drive expansion revenue through strategic customer success programs and technologies.",
+    "culture": "Customer obsession drives everything we do. We believe in putting customers first and creating value through strong relationships. Our culture emphasizes empathy, communication, and continuous improvement in customer experience.",
+    "benefits": [
+      "Customer success training",
+      "Health and wellness benefits",
+      "Flexible PTO",
+      "Professional development",
+      "Team building activities",
+      "Performance incentives",
+      "Collaborative environment"
+    ],
+    "openPositions": 9,
+    "verified": true
+  }
+]

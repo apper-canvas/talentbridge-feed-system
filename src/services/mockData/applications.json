@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "jobId": 1,
+    "candidateId": "user-1",
+    "resume": "https://example.com/resume1.pdf",
+    "coverLetter": "I am excited to apply for the Senior Frontend Developer position at TechFlow Inc. With over 6 years of experience in frontend development and expertise in React and TypeScript, I believe I would be a valuable addition to your team. My passion for creating intuitive user interfaces and my leadership experience make me well-suited for this senior role.",
+    "status": "interview",
+    "appliedDate": "2024-01-16T10:30:00Z",
+    "lastUpdated": "2024-01-18T14:20:00Z",
+    "jobTitle": "Senior Frontend Developer",
+    "companyName": "TechFlow Inc."
+  },
+  {
+    "Id": 2,
+    "jobId": 3,
+    "candidateId": "user-1",
+    "resume": "https://example.com/resume1.pdf",
+    "coverLetter": "I am writing to express my interest in the UX/UI Designer position at DesignCorp. My background in user experience design and my portfolio of successful projects demonstrate my ability to create user-centered designs that drive engagement and conversions.",
+    "status": "viewed",
+    "appliedDate": "2024-01-14T09:15:00Z",
+    "lastUpdated": "2024-01-16T11:45:00Z",
+    "jobTitle": "UX/UI Designer",
+    "companyName": "DesignCorp"
+  },
+  {
+    "Id": 3,
+    "jobId": 5,
+    "candidateId": "user-1",
+    "resume": "https://example.com/resume1.pdf",
+    "coverLetter": "I am applying for the DevOps Engineer position at CloudFirst Technologies. My experience with AWS, Docker, and CI/CD pipelines aligns perfectly with your requirements. I am passionate about automation and infrastructure optimization.",
+    "status": "submitted",
+    "appliedDate": "2024-01-12T16:20:00Z",
+    "lastUpdated": "2024-01-12T16:20:00Z",
+    "jobTitle": "DevOps Engineer",
+    "companyName": "CloudFirst Technologies"
+  },
+  {
+    "Id": 4,
+    "jobId": 2,
+    "candidateId": "user-2",
+    "resume": "https://example.com/resume2.pdf",
+    "coverLetter": "I am interested in the Product Manager role at InnovateLabs. My experience in agile development and product strategy, combined with my analytical skills, make me an ideal candidate for driving product success at your innovative company.",
+    "status": "rejected",
+    "appliedDate": "2024-01-15T13:45:00Z",
+    "lastUpdated": "2024-01-17T10:30:00Z",
+    "jobTitle": "Product Manager",
+    "companyName": "InnovateLabs"
+  },
+  {
+    "Id": 5,
+    "jobId": 4,
+    "candidateId": "user-3",
+    "resume": "https://example.com/resume3.pdf",
+    "coverLetter": "I am excited to apply for the Data Scientist position at DataDriven Solutions. With my PhD in Statistics and 5 years of experience in machine learning, I am confident in my ability to derive valuable insights from complex datasets and contribute to your data science initiatives.",
+    "status": "accepted",
+    "appliedDate": "2024-01-13T11:00:00Z",
+    "lastUpdated": "2024-01-19T09:15:00Z",
+    "jobTitle": "Data Scientist",
+    "companyName": "DataDriven Solutions"
+  }
+]
