@@ -11,7 +11,6 @@ const Header = () => {
   
 const navItems = [
     { to: '/jobs', label: 'Jobs', icon: 'Briefcase' },
-    { to: '/companies', label: 'Companies', icon: 'Building2' },
     { to: '/testimonials', label: 'Testimonials', icon: 'MessageSquare' },
     { to: '/partners', label: 'Partners', icon: 'Handshake' },
     { to: '/upload-cv', label: 'Upload CV', icon: 'Upload' },
